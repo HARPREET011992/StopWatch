@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96C070272B30BAD7009E688D /* WatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C070262B30BAD7009E688D /* WatchView.swift */; };
+		96C070292B30BF44009E688D /* handWithCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C070282B30BF44009E688D /* handWithCircle.swift */; };
+		96C0702B2B30D182009E688D /* Ticks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0702A2B30D182009E688D /* Ticks.swift */; };
 		96D576402B2CED10007A40FB /* StopWatch_Clock_POCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D5763F2B2CED10007A40FB /* StopWatch_Clock_POCApp.swift */; };
 		96D576422B2CED10007A40FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D576412B2CED10007A40FB /* ContentView.swift */; };
 		96D576442B2CED12007A40FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D576432B2CED12007A40FB /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96C070262B30BAD7009E688D /* WatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchView.swift; sourceTree = "<group>"; };
+		96C070282B30BF44009E688D /* handWithCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = handWithCircle.swift; sourceTree = "<group>"; };
+		96C0702A2B30D182009E688D /* Ticks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticks.swift; sourceTree = "<group>"; };
 		96D5763C2B2CED10007A40FB /* StopWatch-Clock-POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StopWatch-Clock-POC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D5763F2B2CED10007A40FB /* StopWatch_Clock_POCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch_Clock_POCApp.swift; sourceTree = "<group>"; };
 		96D576412B2CED10007A40FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,8 +57,11 @@
 		96D5763E2B2CED10007A40FB /* StopWatch-Clock-POC */ = {
 			isa = PBXGroup;
 			children = (
+				96C070262B30BAD7009E688D /* WatchView.swift */,
 				96D5763F2B2CED10007A40FB /* StopWatch_Clock_POCApp.swift */,
 				96D576412B2CED10007A40FB /* ContentView.swift */,
+				96C0702A2B30D182009E688D /* Ticks.swift */,
+				96C070282B30BF44009E688D /* handWithCircle.swift */,
 				96D576432B2CED12007A40FB /* Assets.xcassets */,
 				96D576452B2CED12007A40FB /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C0702B2B30D182009E688D /* Ticks.swift in Sources */,
+				96C070292B30BF44009E688D /* handWithCircle.swift in Sources */,
 				96D576422B2CED10007A40FB /* ContentView.swift in Sources */,
 				96D576402B2CED10007A40FB /* StopWatch_Clock_POCApp.swift in Sources */,
+				96C070272B30BAD7009E688D /* WatchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
